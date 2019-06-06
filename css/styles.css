@@ -1,0 +1,30 @@
+.samplediv{
+  background-color: pink;
+}
+
+.age-label{
+
+}
+
+div {
+  border: 1px red solid;
+}
+
+.button-holder{
+  margin-top: 30px;
+}
+
+.hidden{
+  display: none;
+}
+
+.img-holder{
+  height: 400px;
+  width: 400px;
+}
+
+.img-holder img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/scripts.js"></script>
+    <title>Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Dating Quiz</h1>
+        <p>Fill out our survery to find your celebrity soul mate</p>
+        <form class="survey" action="index.html" method="submit">
+          <div>
+            <label class="age-label"for="age">Age</label>
+            <input type="text" id="age" name="age">
+          </div>
+          <div>
+            <select id=gender>
+              <option value="female">Female</option>
+              <option value="male">Male</option>
+              <option value="non-binary">Non-Binary</option>
+            </select>
+          </div>
+          <div class="button-holder">
+            <button type="submit" id="submitButton" name="submit">Submit</button>
+          </div>
+        </form>
+
+        <div class="hidden celebrity" id="meryl">
+          <p> You should date Meryl Streep! She's a nice lady.</p>
+          <div class="img-holder">
+            <img src="img/meryl.jpeg" alt="A photo of Meryl Streep.">
+          </div>
+        </div>
+        <div class="hidden celebrity" id="kate">
+          <p> You should date Kate Winslet! She's a nice lady.</p>
+
+          <div class="img-holder">
+            <img src="img/kate.jpeg" alt="A photo of Kate Winslet.">
+          </div>
+        </div>
+        <div class="hidden celebrity" id="miley">
+          <p> You should date Miley! She's a nice lady.</p>
+          <div class="img-holder">
+            <img src="img/miley.jpeg" alt="A phot of Miley Cyrus.">
+          </div>
+        </div>
+        <div class="hidden celebrity" id="under18">
+          <div class="img-holder">
+            <img src="img/under18.jpeg" alt="Under 18 jpeg.">
+          </div>
+        </div>
+
+
+    </div>
+  </body>
+</html>
